@@ -1,0 +1,220 @@
+
+h1{
+  font-family: 'Indie Flower', cursive;
+  font-size: 5rem;
+  line-height: 1.5;
+}
+
+h2{
+  font-family: 'Raleway', sans-serif;
+  font-size: 3rem;
+  color: #FFF5FD;
+
+
+}
+
+h3{
+  font-family: 'Ubuntu', sans-serif;
+}
+
+p{
+  color: #8f8f8f;
+}
+
+/* Title */
+
+#title{
+  background-image:url(https://wallpapercave.com/wp/wp5461026.jpg) ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+}
+
+.title1{
+  position: absolute;
+  bottom: 150px;
+  right: -5%;
+  transform: translateX(-50%);
+  color: #FFF5FD;
+}
+
+
+
+/* NAVBAR */
+
+.nav-item{
+  padding: 0 10px;
+}
+
+.navbar-brand{
+  padding: 10px 0 0 20px;
+  font-size: 2rem;
+
+}
+
+/* Features section */
+
+#features{
+  padding:7% 15%;
+}
+
+.coloumn-1{
+  text-align: center;
+  padding: 5%;
+}
+
+
+.icon{
+  color: #121417;
+  margin-bottom: 1rem;
+}
+
+.icon:hover{
+  color: #8f8f8f;
+}
+
+/* TESTIMONIAL section */
+
+#testimonials{
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #1F1E1F;
+
+}
+
+.carousal{
+  color: #FFF5FD;
+}
+
+/* Review Sectiom */
+
+#press{
+  background-color: #1F1E1F;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.ratings-img{
+  height: 4rem ;
+}
+
+
+/* Specials section */
+
+#specials{
+  margin: 2%;
+
+
+}
+
+/*special section Box */
+
+
+   .box-TWD{
+ margin: 10px 0 10px 0;
+ position: relative;
+ width: 400px;
+ height: 450px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background: #060c21;
+}
+
+.box-TWD::before{
+ content: '';
+ position: absolute;
+ top: -2px;
+ left: -2px;
+ right: -2px;
+ bottom: -2px;
+ background: #fff;
+ z-index: -1;
+}
+
+.box-TWD::after{
+ content: '';
+ position: absolute;
+ top: -2px;
+ left: -2px;
+ right: -2px;
+ bottom: -2px;
+ background: #fff;
+ z-index: -2;
+ filter: blur(40px);
+}
+
+.box-TWD::before,
+.box-TWD::after
+{
+ background: linear-gradient(235deg,#89ff00,#060c21,#00bcd4);
+}
+
+.content-cpf{
+ padding:20px;
+ box-sizing: border-box;
+ color: #80ACDB;
+ margin: 0 10px 25px 10px;
+}
+
+.content-mpf{
+ padding:20px;
+ box-sizing: border-box;
+ color: #80ACDB;
+ margin: 0 10px 25px 10px;
+}
+
+.content-lpf{
+ padding:20px;
+ box-sizing: border-box;
+ color: #80ACDB;
+ margin: 0 10px 25px 10px;
+}
+
+.coloumn-1 {
+    padding: 2%;
+}
+
+
+#cta{
+  background-color: #1F1E1F;
+  text-align: center;
+  padding:7% 15%;
+
+}
+
+.cta-head{
+  font-family: 'Akaya Kanadaka', cursive;
+  font-size: 3.5rem;
+  line-height: 1.5rem;
+  color: #FFF5FD;
+  margin-top: 0px
+}
+
+.download-button{
+  margin:5% 5% 2% 5%;
+}
+.download-button:hover{
+  color: #C9E4C5;
+}
+
+/* footer */
+#footer{
+  padding:5% 15%;
+  text-align: center;
+}
+.socialmd{
+  margin: 2%;
+}
+
+
+
+/* Responsivness */
+
+@media (max-width:1000px) {
+  #title{
+
+    text-align: center;
+  }
+
+}
